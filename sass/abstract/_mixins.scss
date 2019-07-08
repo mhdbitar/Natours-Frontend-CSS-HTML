@@ -31,6 +31,8 @@ $breakpoint arguement choices:
 1em = 16px
 
 em unit is best choice for media queries
+
+ORDER: Base + typography > general layout + grid > page layout > components
 */
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
